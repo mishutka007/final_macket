@@ -1,0 +1,113 @@
+.obrsv3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  padding: 24px 16px 0px 16px;
+  gap: 16px;
+  border-left: 1px solid #d9fff5;
+}
+.obrsv__zag3 {
+  color: #1b1c21;
+  font-family: "TTlakes-bold";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+}
+.obrsv__zag3::before {
+  content: url(pictures/logo/highlight.svg);
+  position: absolute;
+  left: 0px;
+}
+.obrsv__input3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #b5b6bc;
+  font-family: "TTlakes-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #b5b6bc;
+  margin: 0px;
+}
+.obrsv__input__tel3{
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  padding-left: 16px;
+}
+.obrsv__input__text3 {
+  width: 100%;
+  height: 118px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  padding: 16px 0px 0px 16px;
+}
+.obrsv__form3,
+.obrsv__back3 {
+  border: none;
+  background: none;
+  display: flex;
+}
+.obrsv__back3 {
+  width: 50px;
+}
+.obrsv__form3 {
+  justify-content: flex-end;
+}
+.obrsv__text3 {
+  color: #7e7e82;
+  font-family: "TTlakes-regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.burger__burger33 {
+  display: flex;
+  width: 320px;
+  height: 100vh;
+  flex-direction: column;
+  background: white;
+  box-shadow: 16px 0px 52px 0px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  right: 0px;
+  position: fixed;
+  z-index: 1000;
+}
+.aburg2 {
+  display: none;
+}
+.open {
+  display: flex !important;
+}
+.test1890 {
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+}
+@media screen and (min-width: 461px) {
+  .obrsv__back3 {
+    position: absolute;
+    left: -75px;
+  }
+  .obrsv3 {
+    padding: 24px 16px 0px 16px; 
+   }
+ }
+ @media screen and (min-width: 768px) {
+   .burger__burger33 {
+     width: 440px;
+   }
+   .obrsv3 {
+     padding: 40px 32px 0px 32px;
+   }
+ }

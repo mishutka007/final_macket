@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "TTlakes-bold";
+  src: url("fonts/TTLakes-Bold.ttf");
+}
+@font-face {
+  font-family: "TTlakes-regular";
+  src: url("fonts/TTLakes-Regular.ttf");
+}
+.section5 {
+  display: flex;
+  flex-direction: column;
+  color: #1b1c21;
+  font-family: "TTlakes-regular";
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  gap: 16px;
+  padding: 16px 16px 16px 16px;
+}
+.section5__text {
+  max-width: 421px;
+  font-weight: 500;
+}
+.section5__kp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 900;
+}
+.footer1 {
+  color: #7e7e82;
+  text-align: center;
+  font-family: "TTlakes-regular";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  opacity: 0.7218;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-top: 1px solid #d9fff5;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer1 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+  }
+  .section5{
+    padding: 24px 0px 46px 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footercenter1 {
+    white-space: nowrap;
+  }
+  .footer__end1 {
+    text-align: right;
+    width: 33%;
+  }
+  .footerstart1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    width: 33%;
+  }
+}
+@media screen and (min-width: 1120px){
+  .section5{
+    padding: 32px 0px 50px 32px;
+  } 
+  .footer1{
+    padding: 32px 32px 24px 32px;
+  }
+}
