@@ -1,10 +1,10 @@
 @font-face {
   font-family: "TTlakes-bold";
-  src: url("fonts/TTLakes-Bold.ttf");
+  src: url("../fonts/TTLakes-Bold.ttf");
 }
 @font-face {
   font-family: "TTlakes-regular";
-  src: url("fonts/TTLakes-Regular.ttf");
+  src: url("../fonts/TTLakes-Regular.ttf");
 }
 .bodym {
   font-family: "TTlakes-regular";
@@ -134,7 +134,7 @@ button {
   align-items: center;
 }
 .mobmain__menu__item:hover::before {
-  content: url("pictures/logo/highlight2.svg");
+  content: url("../pictures/logo/highlight2.svg");
   position: absolute;
   left: 0px;
 }
@@ -174,21 +174,18 @@ button {
     position: fixed;
     z-index: 2;
   }
-  .bodym{
-    box-shadow: none; 
+  .bodym {
+    box-shadow: none;
   }
   .burg1 {
     display: none !important;
   }
   .test1888,
-  #burg1{
+  #burg1 {
     display: none;
   }
   .main__zagolovoc-zag::before {
-    content: url("pictures/logo/highlight.svg");
-    position: absolute;
-    left: 0px;
-    padding-left: 320px;
+    left: -30px;
   }
   .hy {
     padding-left: 320px;

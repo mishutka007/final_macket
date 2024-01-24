@@ -16,7 +16,7 @@
   letter-spacing: -0.6px;
 }
 .obrsv__zag3::before {
-  content: url(pictures/logo/highlight.svg);
+  content: url("../pictures/logo/highlight.svg");
   position: absolute;
   left: 0px;
 }
@@ -34,7 +34,7 @@
   color: #b5b6bc;
   margin: 0px;
 }
-.obrsv__input__tel3{
+.obrsv__input__tel3 {
   height: 48px;
   border-radius: 8px;
   border: 1px solid #eaeaea;
@@ -100,14 +100,14 @@
     left: -75px;
   }
   .obrsv3 {
-    padding: 24px 16px 0px 16px; 
-   }
- }
- @media screen and (min-width: 768px) {
-   .burger__burger33 {
-     width: 440px;
-   }
-   .obrsv3 {
-     padding: 40px 32px 0px 32px;
-   }
- }
+    padding: 24px 16px 0px 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .burger__burger33 {
+    width: 440px;
+  }
+  .obrsv3 {
+    padding: 40px 32px 0px 32px;
+  }
+}

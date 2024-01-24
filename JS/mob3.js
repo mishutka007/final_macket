@@ -20,15 +20,6 @@ const maskOptions2 = {
 };
 const mask2 = IMask(element2, maskOptions2);
 
-
-
-
-
-
-
-
-
-
 // const juim = document.querySelector(".test1890");
 // document
 //   .querySelector(".contact__men__tel")
@@ -51,7 +42,6 @@ const mask2 = IMask(element2, maskOptions2);
 //   }
 //   juim.classList.toggle("open");
 // });
-
 
 // const juimb = document.querySelector(".test1890");
 // document

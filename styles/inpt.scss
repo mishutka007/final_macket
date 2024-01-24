@@ -16,7 +16,7 @@
   letter-spacing: -0.6px;
 }
 .obrsv__zag::before {
-  content: url(pictures/logo/highlight.svg);
+  content: url("../pictures/logo/highlight.svg");
   position: absolute;
   left: 0px;
 }
@@ -105,7 +105,7 @@
     left: -75px;
   }
   .obrsv {
-   padding: 24px 16px 0px 16px; 
+    padding: 24px 16px 0px 16px;
   }
 }
 @media screen and (min-width: 768px) {
